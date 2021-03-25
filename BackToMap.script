@@ -1,0 +1,9 @@
+﻿
+To BackToMap
+
+	Repeat until ImageFound(ImageName:"CJ_Airship",WaitFor:2) 
+		Tap {Image:"CJ_exit_xs", WaitFor:2} 
+		Wait 4
+	end repeat
+	
+End BackToMap
